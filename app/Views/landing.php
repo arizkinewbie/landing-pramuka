@@ -2,7 +2,7 @@
 
 <head>
 
-    <?php echo view('partials/title-meta', array('title'=>'Landing')); ?>
+    <?php echo view('partials/title-meta', array('title' => 'Home')); ?>
 
     <!--Swiper slider css-->
     <link href="/assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
@@ -18,8 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="/assets/images/logo-dark.png" class="card-logo card-logo-dark" alt="logo dark" height="17">
-                    <img src="/assets/images/logo-light.png" class="card-logo card-logo-light" alt="logo light" height="17">
+                    <span class="logo-txt">#Warta</span><span style="color:brown">DewanKerja</span>
                 </a>
                 <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="mdi mdi-menu"></i>
@@ -51,8 +50,7 @@
                     </ul>
 
                     <div class="">
-                        <a href="auth-signin-basic" class="btn btn-link fw-medium text-decoration-none text-dark">Sign in</a>
-                        <a href="auth-signup-basic" class="btn btn-primary">Sign Up</a>
+                        <a href="https://www.instagram.com/dk_nasional/" class="btn btn-soft-primary">Ikuti Kami</a>
                     </div>
                 </div>
 
@@ -1579,10 +1577,9 @@
                     <div class="col-lg-4 mt-4">
                         <div>
                             <div>
-                                <img src="/assets/images/logo-light.png" alt="logo light" height="17">
+                                <span class="logo-txt btn btn-light fw-semibold">#Warta<span style="color:brown">DewanKerja</span></span>
                             </div>
                             <div class="mt-4 fs-13">
-                                <p>Premium Multipurpose Admin & Dashboard Template</p>
                                 <p class="ff-secondary">You can build any type of web application like eCommerce, CRM, CMS, Project management apps, Admin Panels, etc using Velzon.</p>
                             </div>
                         </div>
@@ -1632,7 +1629,9 @@
 
                         <div>
                             <p class="copy-rights mb-0">
-                                <script> document.write(new Date().getFullYear()) </script> © Velzon - Themesbrand
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script> © Dewan Kerja Nasional Gerakan Pramuka.<br> Develop with <i class="mdi mdi-heart text-danger"></i> by <a href="https://github.com/ArizkiNewbie/" target="_blank" class="text-white">ArizkiNewbie</a>
                             </p>
                         </div>
                     </div>
