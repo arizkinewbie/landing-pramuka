@@ -9,6 +9,13 @@
 
     <?= $this->include('partials/head-css') ?>
 
+    <!-- Style text bbrown -->
+    <style>
+        .text-brown {
+            color: brown;
+        }
+    </style>
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
@@ -18,7 +25,7 @@
         <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <span class="logo-txt">#Warta</span><span style="color:brown">DewanKerja</span>
+                    <span class="logo-txt">#Warta</span><span class="text-brown">DewanKerja</span>
                 </a>
                 <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="mdi mdi-menu"></i>
@@ -66,12 +73,11 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-sm-10">
                         <div class="text-center mt-lg-5 pt-5">
-                            <h1 class="display-6 fw-semibold mb-3 lh-base">The better way to manage your website with <span class="text-success">Velzon </span></h1>
-                            <p class="lead text-muted lh-base">Velzon is a fully responsive, multipurpose and premium Bootstrap 5 Admin & Dashboard Template built in multiple frameworks.</p>
+                            <h1 class="display-6 fw-semibold mb-3 lh-base">Official Account of National Rover Scout Council of Indonesia <span class="text-brown">Kwartir Nasional Gerakan Pramuka</span></h1>
+                            <p class="lead text-muted lh-base">#SetiapPramukaAdalahPerwarta</p>
 
                             <div class="d-flex gap-2 justify-content-center mt-4">
-                                <a href="auth-signup-basic" class="btn btn-primary">Get Started <i class="ri-arrow-right-line align-middle ms-1"></i></a>
-                                <a href="pages-pricing" class="btn btn-danger">View Plans <i class="ri-eye-line align-middle ms-1"></i></a>
+                                <a href="https://pramuka.or.id/" class="btn btn-primary" title="Gerakan Pramuka">Visit Website<i class="ri-arrow-right-line align-middle ms-1"></i></a>
                             </div>
                         </div>
 
@@ -85,25 +91,13 @@
                             <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner shadow-lg p-2 bg-white rounded">
                                     <div class="carousel-item active" data-bs-interval="2000">
-                                        <img src="/assets/images/demos/default.png" class="d-block w-100" alt="...">
+                                        <img src="/assets/images/1.jpg" class="d-block w-100 mx-auto" alt="..." title="#DewanKerjaBermanfaat">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="/assets/images/demos/saas.png" class="d-block w-100" alt="...">
+                                        <img src="/assets/images/2.jpg" class="d-block w-100 mx-auto" alt="..." title="#DewanKerjaBermanfaat">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="/assets/images/demos/material.png" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="/assets/images/demos/minimal.png" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="/assets/images/demos/creative.png" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="/assets/images/demos/modern.png" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="/assets/images/demos/interactive.png" class="d-block w-100" alt="...">
+                                        <img src="/assets/images/3.jpg" class="d-block w-100 mx-auto" alt="..." title="#DewanKerjaBermanfaat">
                                     </div>
                                 </div>
                             </div>
@@ -132,39 +126,34 @@
                     <div class="col-lg-12">
 
                         <div class="text-center mt-5">
-                            <h5 class="fs-20">Trusted <span class="text-primary text-decoration-underline">by</span> the world's best</h5>
+                            <h5 class="fs-20">Supported by</span></h5>
 
                             <!-- Swiper -->
                             <div class="swiper trusted-client-slider mt-sm-5 mt-4 mb-sm-5 mb-4" dir="ltr">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="client-images">
-                                            <img src="/assets/images/clients/amazon.svg" alt="client-img" class="mx-auto img-fluid d-block">
+                                            <img src="https://pramuka.or.id/assets/uploads/2022/01/logo-pramuka.png" alt="client-img" class="mx-auto img-fluid d-block">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="client-images">
-                                            <img src="/assets/images/clients/walmart.svg" alt="client-img" class="mx-auto img-fluid d-block">
+                                            <img src="https://pramuka.id/assets/uploads/2022/10/warta-gerakan-pramuka-small.png" alt="client-img" class="mx-auto img-fluid d-block">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="client-images">
-                                            <img src="/assets/images/clients/lenovo.svg" alt="client-img" class="mx-auto img-fluid d-block">
+                                            <img src="assets/images/ambilperan-logo.png" alt="client-img" class="mx-auto img-fluid d-block">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="client-images">
-                                            <img src="/assets/images/clients/paypal.svg" alt="client-img" class="mx-auto img-fluid d-block">
+                                            <img src="assets/images/karyabakti-logo.png" alt="client-img" class="mx-auto img-fluid d-block">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="client-images">
-                                            <img src="/assets/images/clients/shopify.svg" alt="client-img" class="mx-auto img-fluid d-block">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="client-images">
-                                            <img src="/assets/images/clients/verizon.svg" alt="client-img" class="mx-auto img-fluid d-block">
+                                            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgl5ABU86kzEQhou7wSOqEdj83ki3XQl2dczXZ8OcPI5y6Jc2-Kc3f_lsGeNxSxC_NUDLHkXO5J60Lj3yJeITC436Z5THhn4BlqkYv33VKI9w4lHj44tsVCM22ibCjkTbkg_-Uu-Vhl1zFPnUZ1LzY-4sVG1KgGr5suOp1kxaKVKDSjXtPEpBSBRXhi8Q=w1200-h630-p-k-no-nu" alt="client-img" class="mx-auto img-fluid d-block">
                                         </div>
                                     </div>
                                 </div>
@@ -178,6 +167,54 @@
             <!-- end container -->
         </div>
         <!-- end client section -->
+
+        <!-- start features -->
+        <section class="section bg-light py-5" id="features">
+            <div class="container">
+                <div class="row align-items-center gy-4">
+                    <div class="col-lg-6 col-sm-7 mx-auto">
+                        <div>
+                            <img src="/assets/images/logo-sm.png" alt="" class="img-fluid w-50">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-muted">
+                            <div class="avatar-sm icon-effect mb-4">
+                                <div class="avatar-title bg-transparent rounded-circle text-success h1">
+                                    <i class="ri-collage-line fs-36"></i>
+                                </div>
+                            </div>
+                            <h3 class="mb-3 fs-20">Tentang Dewan Kerja Nasional</h3>
+                            <p class="mb-4 ff-secondary fs-16">Dewan Kerja Nasional (DKN) adalah lembaga tinggi Pramuka Penegak dan Pandega yang bertugas mengkoordinasikan kegiatan kepramukaan di tingkat nasional. DKN terdiri dari anggota terpilih yang berdedikasi untuk meningkatkan kualitas dan cakupan program kepramukaan di Indonesia.</p>
+
+                            <div class="row pt-3">
+                                <div class="col-3">
+                                    <div class="text-center">
+                                        <h4>2023-2025</h4>
+                                        <p>Masa Bakti</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="text-center">
+                                        <h4>150+</h4>
+                                        <p>Anggota</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="text-center">
+                                        <h5>#DewanKerjaBermanfaat</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- end features -->
 
         <!-- start services -->
         <section class="section" id="services">
@@ -372,234 +409,6 @@
             <!-- end container -->
         </section>
         <!-- end services -->
-
-        <!-- start features -->
-        <section class="section bg-light py-5" id="features">
-            <div class="container">
-                <div class="row align-items-center gy-4">
-                    <div class="col-lg-6 col-sm-7 mx-auto">
-                        <div>
-                            <img src="/assets/images/landing/features/img-1.png" alt="" class="img-fluid mx-auto">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-muted">
-                            <div class="avatar-sm icon-effect mb-4">
-                                <div class="avatar-title bg-transparent rounded-circle text-success h1">
-                                    <i class="ri-collage-line fs-36"></i>
-                                </div>
-                            </div>
-                            <h3 class="mb-3 fs-20">Huge collection of widgets</h3>
-                            <p class="mb-4 ff-secondary fs-16">Collection widgets specialize in displaying many elements of the same type, such as a collection of pictures from a collection of articles from a news app or a collection of messages from a communication app.</p>
-
-                            <div class="row pt-3">
-                                <div class="col-3">
-                                    <div class="text-center">
-                                        <h4>5</h4>
-                                        <p>Dashboards</p>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="text-center">
-                                        <h4>150+</h4>
-                                        <p>Pages</p>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="text-center">
-                                        <h4>7+</h4>
-                                        <p>Functional Apps</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end features -->
-
-        <!-- start cta -->
-        <section class="py-5 bg-primary position-relative">
-            <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
-            <div class="container">
-                <div class="row align-items-center gy-4">
-                    <div class="col-sm">
-                        <div>
-                            <h4 class="text-white mb-0 fw-semibold">Build your web App/SaaS with Velzon dashboard</h4>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-sm-auto">
-                        <div>
-                            <a href="https://1.envato.market/velzon-admin" target="_blank" class="btn bg-gradient btn-danger"><i class="ri-shopping-cart-2-line align-middle me-1"></i> Buy Now</a>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end cta -->
-
-        <!-- start features -->
-        <section class="section">
-            <div class="container">
-                <div class="row align-items-center gy-4">
-                    <div class="col-lg-6 order-2 order-lg-1">
-                        <div class="text-muted">
-                            <h5 class="fs-12 text-uppercase text-success">Design</h5>
-                            <h4 class="mb-3">Well Designed Dashboards</h4>
-                            <p class="mb-4 ff-secondary">Quality Dashboards (QD) is a condition-specific, actionable web-based application for quality reporting and population management that is integrated into the Electronic Health Record (EHR).</p>
-
-                            <div class="row">
-                                <div class="col-sm-5">
-                                    <div class="vstack gap-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0 me-2">
-                                                <div class="avatar-xs icon-effect">
-                                                    <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                        <i class="ri-check-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h5 class="fs-14 mb-0">Ecommerce</h5>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0 me-2">
-                                                <div class="avatar-xs icon-effect">
-                                                    <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                        <i class="ri-check-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h5 class="fs-14 mb-0">Analytics</h5>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0 me-2">
-                                                <div class="avatar-xs icon-effect">
-                                                    <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                        <i class="ri-check-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h5 class="fs-14 mb-0">CRM</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-5">
-                                    <div class="vstack gap-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0 me-2">
-                                                <div class="avatar-xs icon-effect">
-                                                    <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                        <i class="ri-check-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h5 class="fs-14 mb-0">Crypto</h5>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0 me-2">
-                                                <div class="avatar-xs icon-effect">
-                                                    <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                        <i class="ri-check-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h5 class="fs-14 mb-0">Projects</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="mt-4">
-                                <a href="/" class="btn btn-primary">Learn More <i class="ri-arrow-right-line align-middle ms-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2">
-                        <div>
-                            <img src="/assets/images/landing/features/img-2.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
-
-                <div class="row align-items-center mt-5 pt-lg-5 gy-4">
-                    <div class="col-lg-6 col-sm-7 col-10 mx-auto">
-                        <div>
-                            <img src="/assets/images/landing/features/img-3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-muted ps-lg-5">
-                            <h5 class="fs-12 text-uppercase text-success">structure</h5>
-                            <h4 class="mb-3">Well Documented</h4>
-                            <p class="mb-4">used to describe something that is known about or known to be true because there are many documents that describe it, prove it, etc.</p>
-
-                            <div class="vstack gap-2">
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 me-2">
-                                        <div class="avatar-xs icon-effect">
-                                            <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                <i class="ri-check-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <p class="mb-0">Dynamic Conetnt</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 me-2">
-                                        <div class="avatar-xs icon-effect">
-                                            <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                <i class="ri-check-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <p class="mb-0">Setup plugin's information.</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 me-2">
-                                        <div class="avatar-xs icon-effect">
-                                            <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                <i class="ri-check-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <p class="mb-0">Themes customization information</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end features -->
 
         <!-- start plan -->
         <section class="section bg-light" id="plans">
@@ -1484,16 +1293,46 @@
                     <div class="col-lg-4">
                         <div>
                             <div class="mt-4">
-                                <h5 class="fs-13 text-muted text-uppercase">Office Address 1:</h5>
-                                <div class="ff-secondary fw-semibold">4461 Cedar Street Moro, <br />AR 72368</div>
+                                <h5 class="fs-13 text-muted text-uppercase">SEKRETARIAT</h5>
+                                <div class="ff-secondary fw-semibold">Jl. Medan Merdeka Timur No. 6 , Gambir Jakarta 10110, Indonesia</div>
                             </div>
                             <div class="mt-4">
-                                <h5 class="fs-13 text-muted text-uppercase">Office Address 2:</h5>
-                                <div class="ff-secondary fw-semibold">2467 Swick Hill Street <br />New Orleans, LA</div>
+                                <h5 class="fs-13 text-muted text-uppercase">E-MAIL</h5>
+                                <div class="ff-secondary fw-semibold">dewankerja@pramuka.or.id</div>
                             </div>
                             <div class="mt-4">
-                                <h5 class="fs-13 text-muted text-uppercase">Working Hours:</h5>
-                                <div class="ff-secondary fw-semibold">9:00am to 6:00pm</div>
+                                <h5 class="fs-13 text-muted text-uppercase mb-0">MEDIA SOSIAL</h5>
+                                <!-- list media social seperti ig, yt dll -->
+                                <ul class="list-inline mb-0 mt-0">
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(0)" class="avatar-xs d-block">
+                                            <div class="avatar-title rounded-circle bg-light text-primary">
+                                                <i class="ri-facebook-fill"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(0)" class="avatar-xs d-block">
+                                            <div class="avatar-title rounded-circle bg-light text-primary">
+                                                <i class="ri-instagram-fill"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(0)" class="avatar-xs d-block">
+                                            <div class="avatar-title rounded-circle bg-light text-primary">
+                                                <i class="ri-youtube-fill"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(0)" class="avatar-xs d-block"></a>
+                                        <div class="avatar-title rounded-circle bg-light text-primary">
+                                            <i class="ri-x-fill"></i>
+                                        </div>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -1553,13 +1392,7 @@
                 <div class="row align-items-center gy-4">
                     <div class="col-sm">
                         <div>
-                            <h4 class="text-white mb-0 fw-semibold">Build your web App/SaaS with Velzon dashboard</h4>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-sm-auto">
-                        <div>
-                            <a href="https://1.envato.market/velzon-admin" target="_blank" class="btn bg-gradient btn-danger"><i class="ri-shopping-cart-2-line align-middle me-1"></i> Buy Now</a>
+                            <h4 class="text-white mb-0 fw-semibold">”Gerakan Pramuka Wadah Utama Pembentukan Kader Pemimpin Bangsa”</h4>
                         </div>
                     </div>
                     <!-- end col -->
@@ -1577,7 +1410,7 @@
                     <div class="col-lg-4 mt-4">
                         <div>
                             <div>
-                                <span class="logo-txt btn btn-light fw-semibold">#Warta<span style="color:brown">DewanKerja</span></span>
+                                <span class="logo-txt btn btn-light fw-semibold">#Warta<span class="text-brown">DewanKerja</span>
                             </div>
                             <div class="mt-4 fs-13">
                                 <p class="ff-secondary">You can build any type of web application like eCommerce, CRM, CMS, Project management apps, Admin Panels, etc using Velzon.</p>
@@ -1633,47 +1466,6 @@
                                     document.write(new Date().getFullYear())
                                 </script> © Dewan Kerja Nasional Gerakan Pramuka.<br> Develop with <i class="mdi mdi-heart text-danger"></i> by <a href="https://github.com/ArizkiNewbie/" target="_blank" class="text-white">ArizkiNewbie</a>
                             </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="text-sm-end mt-3 mt-sm-0">
-                            <ul class="list-inline mb-0 footer-social-link">
-                                <li class="list-inline-item">
-                                    <a href="javascript: void(0);" class="avatar-xs d-block">
-                                        <div class="avatar-title rounded-circle">
-                                            <i class="ri-facebook-fill"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="javascript: void(0);" class="avatar-xs d-block">
-                                        <div class="avatar-title rounded-circle">
-                                            <i class="ri-github-fill"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="javascript: void(0);" class="avatar-xs d-block">
-                                        <div class="avatar-title rounded-circle">
-                                            <i class="ri-linkedin-fill"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="javascript: void(0);" class="avatar-xs d-block">
-                                        <div class="avatar-title rounded-circle">
-                                            <i class="ri-google-fill"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="javascript: void(0);" class="avatar-xs d-block">
-                                        <div class="avatar-title rounded-circle">
-                                            <i class="ri-dribbble-line"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
