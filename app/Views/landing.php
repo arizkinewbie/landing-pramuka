@@ -766,7 +766,7 @@
                 <!-- end row -->
 
                 <div class="row g-lg-5 g-4">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="d-flex align-items-center mb-2">
                             <div class="flex-shrink-0 me-1">
                                 <i class="ri-question-line fs-24 align-middle text-success me-1"></i>
@@ -779,13 +779,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="genques-headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseOne" aria-expanded="true" aria-controls="genques-collapseOne">
-                                        What is the purpose of using themes ?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit?
                                     </button>
                                 </h2>
                                 <div id="genques-collapseOne" class="accordion-collapse collapse show" aria-labelledby="genques-headingOne" data-bs-parent="#genques-accordion">
                                     <div class="accordion-body ff-secondary">
-                                        A theme is a set of colors, fonts, effects, and more that can be applied to your entire presentation to give it a
-                                        consistent, professional look. You've already been using a theme, even if you didn't know it: the default Office theme, which consists.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe esse hic delectus fugiat rerum aspernatur. Nemo velit recusandae odio quia vero similique, debitis repudiandae accusantium, ratione possimus soluta impedit.
                                     </div>
                                 </div>
                             </div>
@@ -825,76 +824,6 @@
                                     <div class="accordion-body ff-secondary">
                                         Simple is a free WordPress theme, by Themify, built exactly what it is named for: simplicity. Immediately upgrade the
                                         quality of your WordPress site with the simple theme To use the built-in Chrome theme editor.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end accordion-->
-
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-6">
-                        <div class="d-flex align-items-center mb-2">
-                            <div class="flex-shrink-0 me-1">
-                                <i class="ri-shield-keyhole-line fs-24 align-middle text-success me-1"></i>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="mb-0 fw-semibold">Privacy &amp; Security</h5>
-                            </div>
-                        </div>
-
-                        <div class="accordion custom-accordionwithicon custom-accordion-border accordion-border-box" id="privacy-accordion">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="privacy-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#privacy-collapseOne" aria-expanded="false" aria-controls="privacy-collapseOne">
-                                        Does Word have night mode?
-                                    </button>
-                                </h2>
-                                <div id="privacy-collapseOne" class="accordion-collapse collapse" aria-labelledby="privacy-headingOne" data-bs-parent="#privacy-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        You can run Microsoft Word in dark mode, which uses a dark color palette to help reduce eye strain in low light
-                                        settings. You can choose to make the document white or black using the Switch Modes button in the ribbon's View tab.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="privacy-headingTwo">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#privacy-collapseTwo" aria-expanded="true" aria-controls="privacy-collapseTwo">
-                                        Is theme an opinion?
-                                    </button>
-                                </h2>
-                                <div id="privacy-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="privacy-headingTwo" data-bs-parent="#privacy-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        A theme is an opinion the author expresses on the subject, for instance, the author's dissatisfaction with the narrow
-                                        confines of French bourgeois marriage during that period theme is an idea that a writer repeats.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="privacy-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#privacy-collapseThree" aria-expanded="false" aria-controls="privacy-collapseThree">
-                                        How do you develop a theme?
-                                    </button>
-                                </h2>
-                                <div id="privacy-collapseThree" class="accordion-collapse collapse" aria-labelledby="privacy-headingThree" data-bs-parent="#privacy-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        A short story, novella, or novel presents a narrative to its reader. Perhaps that narrative involves mystery, terror,
-                                        romance, comedy, or all of the above. These works of fiction may also contain memorable characters, vivid
-                                        world-building, literary devices.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="privacy-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#privacy-collapseFour" aria-expanded="false" aria-controls="privacy-collapseFour">
-                                        Do stories need themes?
-                                    </button>
-                                </h2>
-                                <div id="privacy-collapseFour" class="accordion-collapse collapse" aria-labelledby="privacy-headingFour" data-bs-parent="#privacy-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        A story can have as many themes as the reader can identify based on recurring patterns and parallels within the story
-                                        itself. In looking at ways to separate themes into a hierarchy, we might find it useful to follow the example of a
-                                        single book.
                                     </div>
                                 </div>
                             </div>
@@ -985,47 +914,6 @@
         </section>
         <!-- end review -->
 
-        <!-- start counter -->
-        <section class="py-5 position-relative bg-light">
-            <div class="container">
-                <div class="row text-center gy-4">
-                    <div class="col-lg-3 col-6">
-                        <div>
-                            <h2 class="mb-2"><span class="counter-value" data-target="100">0</span>+</h2>
-                            <div class="text-muted">Projects Completed</div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-
-                    <div class="col-lg-3 col-6">
-                        <div>
-                            <h2 class="mb-2"><span class="counter-value" data-target="24">0</span></h2>
-                            <div class="text-muted">Win Awards</div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-
-                    <div class="col-lg-3 col-6">
-                        <div>
-                            <h2 class="mb-2"><span class="counter-value" data-target="20.3">0</span>k</h2>
-                            <div class="text-muted">Satisfied Clients</div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-3 col-6">
-                        <div>
-                            <h2 class="mb-2"><span class="counter-value" data-target="50">0</span></h2>
-                            <div class="text-muted">Employees</div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end counter -->
-
         <!-- start Work Process -->
         <section class="section">
             <div class="container">
@@ -1033,7 +921,7 @@
                     <div class="col-lg-8">
                         <div class="text-center mb-5">
                             <h3 class="mb-3 fw-semibold">Our Work Process</h3>
-                            <p class="text-muted mb-4 ff-secondary">In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy before the Proin vitae ipsum vel ex finibus semper design starts.</p>
+                            <p class="text-muted mb-4 ff-secondary">In an ideal world this website wouldn't exist, a client would acknowledge the importance of having web copy before the Proin vitae ipsum vel ex finibus semper design starts.</p>
                         </div>
                     </div>
                 </div>
@@ -1283,7 +1171,7 @@
                     <div class="col-lg-8">
                         <div class="text-center mb-5">
                             <h3 class="mb-3 fw-semibold">Get In Touch</h3>
-                            <p class="text-muted mb-4 ff-secondary">We thrive when coming up with innovative ideas but also understand that a smart concept should be supported with faucibus sapien odio measurable results.</p>
+                            <p class="text-muted mb-4 ff-secondary">Sampaikan kerjasama, saran dan masukan untuk kami.</p>
                         </div>
                     </div>
                 </div>
