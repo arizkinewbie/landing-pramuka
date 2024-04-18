@@ -153,6 +153,11 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="client-images">
+                                            <img src="https://madupramuka.co.id/wp-content/uploads/2021/04/logo-madu-pramuka-web.png" alt="client-img" class="mx-auto img-fluid d-block">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="client-images">
                                             <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgl5ABU86kzEQhou7wSOqEdj83ki3XQl2dczXZ8OcPI5y6Jc2-Kc3f_lsGeNxSxC_NUDLHkXO5J60Lj3yJeITC436Z5THhn4BlqkYv33VKI9w4lHj44tsVCM22ibCjkTbkg_-Uu-Vhl1zFPnUZ1LzY-4sVG1KgGr5suOp1kxaKVKDSjXtPEpBSBRXhi8Q=w1200-h630-p-k-no-nu" alt="client-img" class="mx-auto img-fluid d-block">
                                         </div>
                                     </div>
@@ -190,7 +195,7 @@
                             <div class="row pt-3">
                                 <div class="col-3">
                                     <div class="text-center">
-                                        <h4>2023-2025</h4>
+                                        <h4>2023-2028</h4>
                                         <p>Masa Bakti</p>
                                     </div>
                                 </div>
