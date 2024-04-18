@@ -1,5 +1,5 @@
 <meta charset="utf-8" />
-<title><?= ($title) ? $title : '' ?> | Halaman Landing Pramuka</title>
+<title>#WartaDewanKerja | Gerakan Pramuka Masa Bakti 2023-2028</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta content="Halaman landing untuk kegiatan pramuka yang kreatif dan
 menarik, dengan konten seputar Dewan Kerja Nasional dan kegiatan Pramuka Penegak
