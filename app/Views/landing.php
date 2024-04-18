@@ -37,34 +37,28 @@
                             <a class="nav-link active" href="#hero">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#plans">Plans</a>
+                            <a class="nav-link" href="#funfacts">FunFacts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#reviews">Reviews</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="team">Team</a>
+                            <a class="nav-link" href="#team">Team</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link d-flex align-items-center" href="">
-                                <h5 class="fs-14 mb-0 text-muted me-2">Light</h5>
-                                <div class="form-check form-switch" onclick="toggleDarkMode()">
-                                    <input class="form-check-input" type="checkbox" id="plan-switch">
-                                    <label class="form-check-label" for="mode-switch"></label>
-                                </div>
-                                <h5 class="fs-14 mb-0 text-muted">Dark</h5>
-                            </a>
-                        </li>
                     </ul>
                     <div class="">
-                        <a href="https://www.instagram.com/dk_nasional/" class="btn btn-soft-primary">Ikuti Kami</a>
+                        <a class="nav-link d-flex align-items-center">
+                            <h5 class="fs-14 mb-0 text-muted me-2">Light</h5>
+                            <div class="form-check form-switch" onclick="toggleDarkMode()">
+                                <input class="form-check-input" type="checkbox" id="mode-switch">
+                                <label class="form-check-label" for="mode-switch"></label>
+                            </div>
+                            <h5 class="fs-14 mb-0 text-muted">Dark</h5>
+                        </a>
                     </div>
                 </div>
 
@@ -85,6 +79,7 @@
 
                             <div class="d-flex gap-2 justify-content-center mt-4">
                                 <a href="https://pramuka.or.id/" class="btn btn-primary" title="Gerakan Pramuka">Visit Website<i class="ri-arrow-right-line align-middle ms-1"></i></a>
+                                <a href="#about" class="btn btn-outline-primary" title="About Us">About Us<i class="ri-arrow-down-line align-middle ms-1"></i></a>
                             </div>
                         </div>
 
@@ -180,8 +175,8 @@
         </div>
         <!-- end client section -->
 
-        <!-- start features -->
-        <section class="section bg-light py-5" id="features">
+        <!-- start about -->
+        <section class="section bg-light py-5" id="about">
             <div class="container">
                 <div class="row align-items-center gy-4">
                     <div class="col-lg-6 col-sm-7 mx-auto">
@@ -195,7 +190,7 @@
                             <p class="mb-4 ff-secondary fs-16">Dewan Kerja Nasional (DKN) adalah lembaga tinggi Pramuka Penegak dan Pandega yang bertugas mengkoordinasikan kegiatan kepramukaan di tingkat nasional. DKN terdiri dari anggota terpilih yang berdedikasi untuk meningkatkan kualitas dan cakupan program kepramukaan di Indonesia.</p>
                             <h5>#DewanKerjaBermanfaat</h5>
                             <!-- Default Modals -->
-                            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal">Program Kerja</button>
+                            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal">Selengkapnya</button>
                             <div id="myModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
                                 <div class="modal-dialog modal-dialog-scrollable modal-xl">
                                     <div class="modal-content">
@@ -205,13 +200,13 @@
                                         <div class="modal-body">
                                             <div class="row justify-content-center">
                                                 <div class="col-lg-8">
-                                                    <div class="text-center mb-5">
-                                                        <h3 class="mb-3 fw-semibold">Program Utama</h3>
+                                                    <div class="text-center mb-2">
+                                                        <h3 class="mb-3 fw-semibold">Program Kerja</h3>
+                                                        <hr />
                                                     </div>
                                                 </div>
                                             </div>
                                             <!-- end row -->
-
                                             <div class="row text-center">
                                                 <div class="col-lg-4">
                                                     <div class="process-card mt-4">
@@ -260,6 +255,37 @@
                                                 <!-- end col -->
                                             </div>
                                             <!-- end row -->
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <div class="text-center mt-5 mb-2">
+                                                        <h3 class="mb-3 fw-semibold">Visi & Misi</h3>
+                                                        <hr />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end row -->
+                                            <div class="card-body">
+                                                <h6 class="fs-16 my-3">Visi</h6>
+                                                <div class="d-flex mt-3">
+                                                    <div class="flex-grow-1 ms-2 ">
+                                                        <p class="text-muted mb-0"></p>
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore expedita itaque ratione soluta, deleniti quaerat magnam quis saepe tempora, delectus atque possimus cum velit rem accusamus debitis, beatae distinctio quasi!</p>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                                <h6 class="fs-16 my-3">Misi</h6>
+                                                <div class="d-flex mt-3">
+                                                    <div class="flex-grow-1 ms-2 ">
+                                                        <p class="text-muted mb-0"></p>
+                                                        <ul class="list-unstyled">
+                                                            <li>- Perferendis ipsum iure libero optio labore</li>
+                                                            <li>- Soluta quod inventore iure commodi ipsa aspernatur praesentium</li>
+                                                            <li>- Ipsum fugit ea molestiae dolores alias nam blanditiis</li>
+                                                        </ul>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
@@ -288,10 +314,10 @@
             </div>
             <!-- end container -->
         </section>
-        <!-- end features -->
+        <!-- end about -->
 
         <!-- start blog -->
-        <section class="section" id="blog">
+        <section class="section" id="news">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -785,8 +811,78 @@
         </section>
         <!-- end faqs -->
 
+        <!-- start plan -->
+        <section class="section bg-light">
+            <div class="bg-overlay bg-overlay-pattern"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center">
+                            <h3 class="mb-3 fw-semibold">Sebaran Aset Desa</h3>
+                            <p class="text-muted mb-4 ff-secondary">Dapatkan informasi mengenai lokasi aset desa untuk keperluan kakak-kakak Pramuka. <span class="text-primary fst-italic">*sumber dari API</span></p>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+                <div class="container-fluid">
+                    <div class="card">
+                        <div class="card-header d-flex align-items-center flex-wrap">
+                            <h4 class="card-title mb-0 me-auto">Aset Desa Telaga Wetan</h4>
+                            <!-- dropdown nama desa -->
+                            <div class="ms-auto mt-2 mt-lg-0">
+                                <div class="btn-group dropend ms-0 ms-lg-2">
+                                    <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-user-location-line"></i> Jenis Aset
+                                    </button>
+                                    <ul class="dropdown-menu p-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="Tanah" checked>
+                                            <label class="form-check-label" for="Tanah">
+                                                Tanah
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="KantorDesa" checked>
+                                            <label class="form-check-label" for="KantorDesa">
+                                                Kantor Desa
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="KantorKUD" checked>
+                                            <label class="form-check-label" for="KantorKUD">
+                                                Kantor KUD
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="KantorKebudayaan" checked>
+                                            <label class="form-check-label" for="KantorKebudayaan">
+                                                Kantor Kebudayaan
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="GedungOlahraga" checked>
+                                            <label class="form-check-label" for="GedungOlahraga">
+                                                Gedung Olahraga
+                                            </label>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- end card header -->
+
+                        <div class="card-body">
+                            <div class="leaflet-map" id="map"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--end row-->
+                <!-- end container -->
+        </section>
+        <!-- end plan -->
+
         <!-- start review -->
-        <section class="section bg-primary" id="reviews">
+        <section class="section bg-primary" id="funfacts">
             <div class="bg-overlay bg-overlay-pattern"></div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -795,8 +891,7 @@
                             <div>
                                 <i class="ri-double-quotes-l text-success display-3"></i>
                             </div>
-                            <h4 class="text-white mb-5"><span class="text-success">19k</span>+ Satisfied clients</h4>
-
+                            <h4 class="text-white mb-5"><span class="text-success">#FunFact</span> tentang Pramuka</h4>
                             <!-- Swiper -->
                             <div class="swiper client-review-swiper rounded" dir="ltr">
                                 <div class="swiper-wrapper">
@@ -804,11 +899,11 @@
                                         <div class="row justify-content-center">
                                             <div class="col-10">
                                                 <div class="text-white-50">
-                                                    <p class="fs-20 ff-secondary mb-4">" I am givng 5 stars. Theme is great and everyone one stuff everything in theme. Future request should not affect current state of theme. "</p>
+                                                    <p class="fs-20 ff-secondary mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
                                                     <div>
                                                         <h5 class="text-white">gregoriusus</h5>
-                                                        <p>- Skote User</p>
+                                                        <p>- DKR Kec. Xxxxxx</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -819,11 +914,11 @@
                                         <div class="row justify-content-center">
                                             <div class="col-10">
                                                 <div class="text-white-50">
-                                                    <p class="fs-20 ff-secondary mb-4">" Awesome support. Had few issues while setting up because of my device, the support team helped me fix them up in a day. Everything looks clean and good. Highly recommended! "</p>
+                                                    <p class="fs-20 ff-secondary mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
                                                     <div>
                                                         <h5 class="text-white">GeekyGreenOwl</h5>
-                                                        <p>- Skote User</p>
+                                                        <p>- DKC Kab. Xxxxx</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -834,11 +929,11 @@
                                         <div class="row justify-content-center">
                                             <div class="col-10">
                                                 <div class="text-white-50">
-                                                    <p class="fs-20 ff-secondary mb-4">" Amazing template, Redux store and components is nicely designed. It's a great start point for an admin based project. Clean Code and good documentation. Template is completely in React and absolutely no usage of jQuery "</p>
+                                                    <p class="fs-20 ff-secondary mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
                                                     <div>
                                                         <h5 class="text-white">sreeks456</h5>
-                                                        <p>- Veltrix User</p>
+                                                        <p>- DKC Kota Xxxxx</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1182,7 +1277,7 @@
                                 <span class="logo-txt btn btn-light fw-semibold">#Warta<span class="text-brown">DewanKerja</span>
                             </div>
                             <div class="mt-4 fs-13">
-                                <p class="ff-secondary">You can build any type of web application like eCommerce, CRM, CMS, Project management apps, Admin Panels, etc using Velzon.</p>
+                                <p class="ff-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod nulla commodi fugit laudantium quis veritatis! Qui, minus sunt quibusdam architecto, accusantium ipsa iusto molestias tenetur, cumque labore nisi asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio rerum iste culpa saepe, accusantium in, maxime reprehenderit officia, eum optio deleniti minima. Dolores esse atque ab quidem aperiam nisi.</p>
                             </div>
                         </div>
                     </div>
@@ -1261,6 +1356,8 @@
     <!-- landing init -->
     <script src="/assets/js/pages/landing.init.js"></script>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
     <!-- internal js -->
     <script>
         document.documentElement.setAttribute('data-bs-theme', 'light');
@@ -1268,6 +1365,221 @@
         function toggleDarkMode() {
             document.documentElement.setAttribute('data-bs-theme', document.documentElement.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light');
         };
+
+        const lat = -6.983464559152256; // Latitude desa Telagawetan
+        const lng = 108.31551443184851; // Longitude desa Telagawetan
+
+        var map = L.map('map').setView([lat, lng], 14); // Set zoom level ke 14 agar lebih dekat dengan desa Telagawetan
+
+
+        // Mengambil API disini
+        L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=g4CmBorxbBmnxsUejbeq', {
+            attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+            maxZoom: 19,
+        }).addTo(map);
+
+        // Icon untuk Kantor Desa
+        var leafletIconKantorDesa = L.divIcon({
+            html: '<i class="ri-community-line custom-icon" style="font-size: 24px;"></i>',
+            className: 'custom-icon',
+            iconAnchor: [12, 24],
+            popupAnchor: [0, -24]
+        });
+
+        // Icon untuk Tanah
+        var leafletIconTanah = L.divIcon({
+            html: '<i class="ri-blaze-line custom-icon" style="font-size: 24px;"></i>', // Anda dapat mengubah kelas ikon sesuai kebutuhan
+            className: 'custom-icon',
+            iconAnchor: [12, 24],
+            popupAnchor: [0, -24]
+        });
+
+        // Icon untuk Kantor KUD
+        var leafletIconKantorKUD = L.divIcon({
+            html: '<i class="ri-building-4-line custom-icon" style="font-size: 24px;"></i>', // Anda dapat mengubah kelas ikon sesuai kebutuhan
+            className: 'custom-icon',
+            iconAnchor: [12, 24],
+            popupAnchor: [0, -24]
+        });
+
+        // Icon untuk Kantor Kebudayaan
+        var leafletIconKantorKebudayaan = L.divIcon({
+            html: '<i class="ri-ancient-pavilion-line custom-icon" style="font-size: 24px;"></i>', // Anda dapat mengubah kelas ikon sesuai kebutuhan
+            className: 'custom-icon',
+            iconAnchor: [12, 24],
+            popupAnchor: [0, -24]
+        });
+
+        // Icon untuk Gedung Olahraga
+        var leafletIconGedungOlahraga = L.divIcon({
+            html: '<i class="ri-run-line custom-icon" style="font-size: 24px;"></i>', // Anda dapat mengubah kelas ikon sesuai kebutuhan
+            className: 'custom-icon',
+            iconAnchor: [22, 40],
+            popupAnchor: [-3, -36]
+        });
+
+        // Tambahkan marker untuk Kantor Desa
+        var markerKantorDesa = L.marker([-6.987297244550035, 108.31677748931818], {
+            icon: leafletIconKantorDesa
+        }).addTo(map); // Menambahkan marker di KantorDesa
+
+        // Tambahkan marker untuk Tanah
+        var markerTanah = L.marker([-6.978772163242786, 108.31320484104683], {
+            icon: leafletIconTanah
+        }).addTo(map); // Menambahkan marker di Tanah
+
+        // Tambahkan marker untuk KantorKUD
+        var markerKantorKUD = L.marker([-6.986186843601615, 108.31165308472696], {
+            icon: leafletIconKantorKUD
+        }).addTo(map); // Menambahkan marker di KantorKUD
+
+        // Tambahkan marker untuk KantorKebudayaan
+        var markerKantorKebudayaan = L.marker([-6.984252590490897, 108.31367397667842], {
+            icon: leafletIconKantorKebudayaan
+        }).addTo(map); // Menambahkan marker di KantorKebudayaan
+
+        // Tambahkan marker untuk GedungOlahraga
+        var markerGedungOlahraga = L.marker([-6.978091582829884, 108.31154482265812], {
+            icon: leafletIconGedungOlahraga
+        }).addTo(map); // Menambahkan marker di GedungOlahraga
+
+        // PopUp Tanah Area
+        markerTanah.bindPopup("<b> Tanah </b><br> Talagawetan").openPopup();
+
+        // PopUp KantorDesa Area
+        markerKantorDesa.bindPopup("<b> Kantor Desa </b><br> Talagawetan").openPopup();
+
+        // PopUp KantorKUD Area
+        markerKantorKUD.bindPopup("<b> Kantor KUD </b><br> Talagawetan").openPopup();
+
+        // PopUp KantorKebudayaan Area
+        markerKantorKebudayaan.bindPopup("<b> Kantor Kebudayaan </b><br> Talagawetan").openPopup();
+
+        // PopUp GedungOlahraga Area
+        markerGedungOlahraga.bindPopup("<b> Kantor Olahraga </b><br> Talagawetan").openPopup();
+
+        // Event listener untuk checkbox Tanah
+        document.getElementById('Tanah').addEventListener('change', function() {
+            if (this.checked) {
+                markerTanah.addTo(map);
+            } else {
+                map.removeLayer(markerTanah);
+            }
+        });
+
+        // Event listener untuk checkbox Kantor Desa
+        document.getElementById('KantorDesa').addEventListener('change', function() {
+            if (this.checked) {
+                markerKantorDesa.addTo(map);
+            } else {
+                map.removeLayer(markerKantorDesa);
+            }
+        });
+
+        // Event listener untuk checkbox KantorKUD
+        document.getElementById('KantorKUD').addEventListener('change', function() {
+            if (this.checked) {
+                markerKantorKUD.addTo(map);
+            } else {
+                map.removeLayer(markerKantorKUD);
+            }
+        });
+
+        // Event listener untuk checkbox KantorKebudayaan
+        document.getElementById('KantorKebudayaan').addEventListener('change', function() {
+            if (this.checked) {
+                markerKantorKebudayaan.addTo(map);
+            } else {
+                map.removeLayer(markerKantorKebudayaan);
+            }
+        });
+
+        // Event listener untuk checkbox GedungOlahraga
+        document.getElementById('GedungOlahraga').addEventListener('change', function() {
+            if (this.checked) {
+                markerGedungOlahraga.addTo(map);
+            } else {
+                map.removeLayer(markerGedungOlahraga);
+            }
+        });
+
+
+        var myGeoJSONTalaga = {
+            "type": "FeatureCollection",
+            "features": [{
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [108.3112577, -6.98967258],
+                        [108.31057576, -6.99019904],
+                        [108.30962861, -6.99063149],
+                        [108.3097991, -6.98959738],
+                        [108.3104621, -6.98976659],
+                        [108.31087884, -6.98907092],
+                        [108.31144713, -6.9889205],
+                        [108.31135241, -6.98811201],
+                        [108.31053787, -6.98673945],
+                        [108.31093567, -6.98623179],
+                        [108.31139906, -6.97635744]
+                    ]
+                },
+                "id": "a78ac226-d08a-4d05-a5e6-35e4271041bc",
+                "properties": {
+                    "name": ""
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [108.31139906, -6.97635744],
+                        [108.31139906, -6.97635744]
+                    ]
+                },
+                "id": "bc199441-ab30-4be4-a177-6bf16320af1d",
+                "properties": {
+                    "name": "Talagawetan"
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [108.31139906, -6.97635744],
+                        [108.31318822, -6.97662607],
+                        [108.31517284, -6.9765813],
+                        [108.31627039, -6.97716332],
+                        [108.31673052, -6.97789708],
+                        [108.31671859, -6.97942507],
+                        [108.31661119, -6.98062139],
+                        [108.31690952, -6.98095305],
+                        [108.31718682, -6.98139959],
+                        [108.31718682, -6.98521646],
+                        [108.31694056, -6.98651382],
+                        [108.32112694, -6.9889393],
+                        [108.32432829, -6.99134597],
+                        [108.31881591, -6.99294414],
+                        [108.31735731, -6.99221086],
+                        [108.31551985, -6.99318856],
+                        [108.3124511, -6.99307575],
+                        [108.31260264, -6.99175961],
+                        [108.31212907, -6.99102633],
+                        [108.3124511, -6.99046227],
+                        [108.31290573, -6.99036826],
+                        [108.31275419, -6.98989821],
+                        [108.31199647, -6.99008623],
+                        [108.3112577, -6.98967258]
+                    ]
+                },
+                "id": "670fff86-1e8e-4a3a-a3a2-f2e128c872d3",
+                "properties": {
+                    "name": ""
+                }
+            }]
+        }
+
+        L.geoJSON(myGeoJSONTalaga).addTo(map)
     </script>
 </body>
 
