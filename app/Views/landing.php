@@ -40,22 +40,29 @@
                             <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#features">Features</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#plans">Plans</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#reviews">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#team">Team</a>
+                            <a class="nav-link" href="team">Team</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <h5 class="fs-14 mb-0 text-muted">Light</h5>
+                                <div class="form-check form-switch" onclick="toggleDarkMode()">
+                                    <input class="form-check-input" type="checkbox" id="plan-switch">
+                                    <label class="form-check-label" for="mode-switch"></label>
+                                </div>
+                                <h5 class="fs-14 mb-0 text-muted">Dark</h5>
+                            </a>
+                        </li>
                     </ul>
-
                     <div class="">
                         <a href="https://www.instagram.com/dk_nasional/" class="btn btn-soft-primary">Ikuti Kami</a>
                     </div>
@@ -179,36 +186,98 @@
                 <div class="row align-items-center gy-4">
                     <div class="col-lg-6 col-sm-7 mx-auto">
                         <div>
-                            <img src="/assets/images/logo-sm.png" alt="" class="img-fluid w-50">
+                            <img src="/assets/images/logo-sm.png" alt="" class="img-fluid w-50 d-block mx-auto">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="text-muted">
-                            <div class="avatar-sm icon-effect mb-4">
-                                <div class="avatar-title bg-transparent rounded-circle text-success h1">
-                                    <i class="ri-collage-line fs-36"></i>
-                                </div>
-                            </div>
                             <h3 class="mb-3 fs-20">Tentang Dewan Kerja Nasional</h3>
                             <p class="mb-4 ff-secondary fs-16">Dewan Kerja Nasional (DKN) adalah lembaga tinggi Pramuka Penegak dan Pandega yang bertugas mengkoordinasikan kegiatan kepramukaan di tingkat nasional. DKN terdiri dari anggota terpilih yang berdedikasi untuk meningkatkan kualitas dan cakupan program kepramukaan di Indonesia.</p>
+                            <h5>#DewanKerjaBermanfaat</h5>
+                            <!-- Default Modals -->
+                            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal">Program Kerja</button>
+                            <div id="myModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <div class="text-center mb-5">
+                                                        <h3 class="mb-3 fw-semibold">Program Utama</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end row -->
+
+                                            <div class="row text-center">
+                                                <div class="col-lg-4">
+                                                    <div class="process-card mt-4">
+                                                        <div class="process-arrow-img d-none d-lg-block">
+                                                            <img src="/assets/images/landing/process-arrow-img.png" alt="" class="img-fluid">
+                                                        </div>
+                                                        <div class="avatar-sm icon-effect mx-auto mb-4">
+                                                            <div class="avatar-title bg-transparent text-success rounded-circle h1">
+                                                                <i class="ri-quill-pen-line"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <h5>Pelatihan Kepemimpinan</h5>
+                                                        <p class="text-muted ff-secondary">Program pelatihan untuk mengembangkan keterampilan kepemimpinan dan manajemen organisasi.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-lg-4">
+                                                    <div class="process-card mt-4">
+                                                        <div class="process-arrow-img d-none d-lg-block">
+                                                            <img src="/assets/images/landing/process-arrow-img.png" alt="" class="img-fluid">
+                                                        </div>
+                                                        <div class="avatar-sm icon-effect mx-auto mb-4">
+                                                            <div class="avatar-title bg-transparent text-success rounded-circle h1">
+                                                                <i class="ri-user-follow-line"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <h5>Kegiatan Sosial dan Komunitas</h5>
+                                                        <p class="text-muted ff-secondary">Inisiatif yang bertujuan untuk memberikan dampak positif pada masyarakat melalui kegiatan sukarelawan dan sosial.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-lg-4">
+                                                    <div class="process-card mt-4">
+                                                        <div class="avatar-sm icon-effect mx-auto mb-4">
+                                                            <div class="avatar-title bg-transparent text-success rounded-circle h1">
+                                                                <i class="ri-book-mark-line"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <h5>Penelitian dan Pengembangan</h5>
+                                                        <p class="text-muted ff-secondary">Kegiatan yang mendukung penelitian dan pengembangan metode serta materi kepramukaan yang relevan dengan tantangan zaman.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <!-- end row -->
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
 
                             <div class="row pt-3">
-                                <div class="col-3">
-                                    <div class="text-center">
-                                        <h4>2023-2028</h4>
-                                        <p>Masa Bakti</p>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="text-center">
-                                        <h4>150+</h4>
-                                        <p>Anggota</p>
-                                    </div>
+                                <div class="col-4">
+                                    <h4>2023-2028</h4>
+                                    <p>Masa Bakti</p>
+
                                 </div>
                                 <div class="col-4">
-                                    <div class="text-center">
-                                        <h5>#DewanKerjaBermanfaat</h5>
-                                    </div>
+                                    <h4>150+</h4>
+                                    <p>Anggota</p>
                                 </div>
                             </div>
                         </div>
@@ -221,199 +290,100 @@
         </section>
         <!-- end features -->
 
-        <!-- start services -->
-        <section class="section" id="services">
+        <!-- start blog -->
+        <section class="section" id="blog">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="text-center mb-5">
-                            <h1 class="mb-3 ff-secondary fw-semibold lh-base">A Digital web design studio creating modern & engaging online</h1>
-                            <p class="text-muted">To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce the grammar</p>
+                            <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">Our Latest <span class="text-primary">News</span></h1>
+                            <p class="text-muted mb-4">We thrive when coming up with innovative ideas but also understand that a smart concept should be supported with faucibus sapien odio measurable results.</p>
                         </div>
                     </div>
-                    <!-- end col -->
                 </div>
                 <!-- end row -->
 
-                <div class="row g-3">
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-pencil-ruler-2-line fs-36"></i>
-                                    </div>
-                                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://pramuka.id/assets/uploads/2024/04/WhatsApp-Image-2024-04-05-at-16.13.13-e1712385517692-750x491.jpeg" alt="" class="img-fluid rounded" />
                             </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Creative Design</h5>
-                                <p class="text-muted my-3 ff-secondary">The creative design includes designs that are unique, effective and memorable.</p>
-                                <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-palette-line fs-36"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Unlimited Colors</h5>
-                                <p class="text-muted my-3 ff-secondary">The collection of rules and guidelines which designers use to communicate with users through appealing.</p>
-                                <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-lightbulb-flash-line fs-36"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Strategy Solutions</h5>
-                                <p class="text-muted my-3 ff-secondary">Business development firm that provides strategic planning, market research services and project.</p>
-                                <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-customer-service-line fs-36"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Awesome Support</h5>
-                                <p class="text-muted my-3 ff-secondary">Awesome Support is the most versatile and feature-rich support plugin for all version.</p>
-                                <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-stack-line fs-36"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Truly Multipurpose</h5>
-                                <p class="text-muted my-3 ff-secondary">You usually get a broad range of options to play with. This enables you to use a single theme across multiple.</p>
-                                <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-settings-2-line fs-36"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Easy to customize</h5>
-                                <p class="text-muted my-3 ff-secondary">Personalise your own website, no matter what theme and what customization options.</p>
-                                <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
+                            <div class="card-body">
+                                <ul class="list-inline fs-14 text-muted">
+                                    <li class="list-inline-item">
+                                        <i class="ri-calendar-line align-bottom me-1"></i> 06 Apr, 2024
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="ri-message-2-line align-bottom me-1"></i> 364 Comment
+                                    </li>
+                                </ul>
+                                <a href="javascript:void(0);">
+                                    <h5>Ketua Kwarnas Kukuhkan Dewan Kerja Nasional Masa Bakti 2023-2028</h5>
+                                </a>
+                                <p class="text-muted fs-14">JAKARTA - Pengukuhan dan pelantikan pengurus Dewan Kerja Nasional Masa Bakti Tahun 2023-2028. Pengukuhan tersebut berlangsung di Gedung Kwartir Nasional, pada Jumat (5/4/2024) siang.</p>
 
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-slideshow-line fs-36"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Responsive & Clean Design</h5>
-                                <p class="text-muted my-3 ff-secondary">Responsive design is a graphic user interface (GUI) design approach used to create content.</p>
                                 <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
+                                    <a href="#!" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-google-fill fs-36"></i>
-                                    </div>
-                                </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://munas2023.pramuka.or.id/assets/uploads/2024/04/pelantikan-pimpinan-kwarnas-2023-2028.jpg" alt="" class="img-fluid rounded" />
                             </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Google Font Collection</h5>
-                                <p class="text-muted my-3 ff-secondary">Google Fonts is a collection of 915 fonts, all available to use for free on your website.</p>
+                            <div class="card-body">
+                                <ul class="list-inline fs-14 text-muted">
+                                    <li class="list-inline-item">
+                                        <i class="ri-calendar-line align-bottom me-1"></i> 23 Sept, 2021
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="ri-message-2-line align-bottom me-1"></i> 354 Comment
+                                    </li>
+                                </ul>
+                                <a href="javascript:void(0);">
+                                    <h5>Jajaran Pengurus Kwarnas Masa Bakti 2023-2028 Resmi Dilantik</h5>
+                                </a>
+                                <p class="text-muted fs-14">JAKARTA — Kak Budi Waseso beserta seluruh jajaran pengurus Kwartir Nasional Gerakan Pramuka masa bakti 2023-2028 resmi dilantik oleh Presiden Joko Widodo di Istana Negara pada Jumat, 5 April 2024.</p>
+
                                 <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
+                                    <a href="#!" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="d-flex p-3">
-                            <div class="flex-shrink-0 me-3">
-                                <div class="avatar-sm icon-effect">
-                                    <div class="avatar-title bg-transparent text-success rounded-circle">
-                                        <i class="ri-briefcase-5-line fs-36"></i>
-                                    </div>
-                                </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://munas2023.pramuka.or.id/assets/uploads/2023/12/munas-lancar.jpg" alt="" class="img-fluid rounded" />
                             </div>
-                            <div class="flex-grow-1">
-                                <h5 class="fs-18">Top Industry Specialists</h5>
-                                <p class="text-muted my-3 ff-secondary">An industrial specialist works with industrial operations to ensure that manufacturing facilities work.</p>
+                            <div class="card-body">
+                                <ul class="list-inline fs-14 text-muted">
+                                    <li class="list-inline-item">
+                                        <i class="ri-calendar-line align-bottom me-1"></i> 05 Apr, 2024
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="ri-message-2-line align-bottom me-1"></i> 245 Comment
+                                    </li>
+                                </ul>
+                                <a href="javascript:void(0);">
+                                    <h5>Kak Budi Waseso Terpilih secara Aklamasi sebagai Ketua Kwarnas Masa Bakti 2023-2028</h5>
+                                </a>
+                                <p class="text-muted fs-14">BANDA ACEH — Kak Komjen Pol. (Purn) Drs. Budi Waseso terpilih secara aklamasi sebagai Ketua Kwartir Nasional (Kwarnas) Gerakan Pramuka Masa Bakti 2023-2028.</p>
                                 <div>
-                                    <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
+                                    <a href="#!" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end col -->
                 </div>
-                <!-- end row -->
             </div>
             <!-- end container -->
         </section>
-        <!-- end services -->
+        <!-- end blog -->
 
         <!-- start plan -->
         <section class="section bg-light" id="plans">
@@ -763,7 +733,6 @@
 
                             <div class="hstack gap-2 justify-content-center">
                                 <button type="button" class="btn btn-primary btn-label rounded-pill"><i class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email Us</button>
-                                <button type="button" class="btn btn-info btn-label rounded-pill"><i class="ri-twitter-line label-icon align-middle rounded-pill fs-16 me-2"></i> Send Us Tweet</button>
                             </div>
                         </div>
                     </div>
@@ -796,39 +765,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="genques-headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseTwo" aria-expanded="false" aria-controls="genques-collapseTwo">
-                                        Can a theme have more than one theme?
+                                        Lorem ipsum dolor sit?
                                     </button>
                                 </h2>
                                 <div id="genques-collapseTwo" class="accordion-collapse collapse" aria-labelledby="genques-headingTwo" data-bs-parent="#genques-accordion">
                                     <div class="accordion-body ff-secondary">
-                                        A story can have as many themes as the reader can identify based on recurring patterns and parallels within the story
-                                        itself. In looking at ways to separate themes into a hierarchy, we might find it useful to follow the example of a single book.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="genques-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseThree" aria-expanded="false" aria-controls="genques-collapseThree">
-                                        What are theme features?
-                                    </button>
-                                </h2>
-                                <div id="genques-collapseThree" class="accordion-collapse collapse" aria-labelledby="genques-headingThree" data-bs-parent="#genques-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        Theme features is a set of specific functionality that may be enabled by theme authors. Themes must register each
-                                        individual Theme Feature that the author wishes to support. Theme support functions should be called in the theme's functions.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="genques-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseFour" aria-expanded="false" aria-controls="genques-collapseFour">
-                                        What is simple theme?
-                                    </button>
-                                </h2>
-                                <div id="genques-collapseFour" class="accordion-collapse collapse" aria-labelledby="genques-headingFour" data-bs-parent="#genques-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        Simple is a free WordPress theme, by Themify, built exactly what it is named for: simplicity. Immediately upgrade the
-                                        quality of your WordPress site with the simple theme To use the built-in Chrome theme editor.
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor fugiat laborum unde id consectetur, eveniet aspernatur inventore totam at impedit eaque tempora nisi exercitationem tenetur veritatis facilis! Dolore, odio itaque!
                                     </div>
                                 </div>
                             </div>
@@ -918,72 +860,6 @@
             <!-- end container -->
         </section>
         <!-- end review -->
-
-        <!-- start Work Process -->
-        <section class="section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-semibold">Our Work Process</h3>
-                            <p class="text-muted mb-4 ff-secondary">In an ideal world this website wouldn't exist, a client would acknowledge the importance of having web copy before the Proin vitae ipsum vel ex finibus semper design starts.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
-
-                <div class="row text-center">
-                    <div class="col-lg-4">
-                        <div class="process-card mt-4">
-                            <div class="process-arrow-img d-none d-lg-block">
-                                <img src="/assets/images/landing/process-arrow-img.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="avatar-sm icon-effect mx-auto mb-4">
-                                <div class="avatar-title bg-transparent text-success rounded-circle h1">
-                                    <i class="ri-quill-pen-line"></i>
-                                </div>
-                            </div>
-
-                            <h5>Tell us what you need</h5>
-                            <p class="text-muted ff-secondary">The profession and the employer and your desire to make your mark.</p>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="process-card mt-4">
-                            <div class="process-arrow-img d-none d-lg-block">
-                                <img src="/assets/images/landing/process-arrow-img.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="avatar-sm icon-effect mx-auto mb-4">
-                                <div class="avatar-title bg-transparent text-success rounded-circle h1">
-                                    <i class="ri-user-follow-line"></i>
-                                </div>
-                            </div>
-
-                            <h5>Get free quotes</h5>
-                            <p class="text-muted ff-secondary">The most important aspect of beauty was, therefore, an inherent part.</p>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="process-card mt-4">
-                            <div class="avatar-sm icon-effect mx-auto mb-4">
-                                <div class="avatar-title bg-transparent text-success rounded-circle h1">
-                                    <i class="ri-book-mark-line"></i>
-                                </div>
-                            </div>
-
-                            <h5>Deliver high quality product</h5>
-                            <p class="text-muted ff-secondary">We quickly learn to fear and thus automatically avoid potentially.</p>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end Work Process -->
 
         <!-- start team -->
         <section class="section bg-light" id="team">
@@ -1384,6 +1260,15 @@
 
     <!-- landing init -->
     <script src="/assets/js/pages/landing.init.js"></script>
+
+    <!-- internal js -->
+    <script>
+        document.documentElement.setAttribute('data-bs-theme', 'light');
+        //buat js untuk ganti light to dark mode
+        function toggleDarkMode() {
+            document.documentElement.setAttribute('data-bs-theme', document.documentElement.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light');
+        };
+    </script>
 </body>
 
 </html>
