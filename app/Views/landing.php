@@ -411,407 +411,7 @@
         </section>
         <!-- end blog -->
 
-        <!-- start plan -->
-        <section class="section bg-light" id="plans">
-            <div class="bg-overlay bg-overlay-pattern"></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-semibold">Choose the plan that's right for you</h3>
-                            <p class="text-muted mb-4">Simple pricing. No hidden fees. Advanced features for you business.</p>
-
-                            <div class="d-flex justify-content-center align-items-center">
-                                <div>
-                                    <h5 class="fs-14 mb-0">Month</h5>
-                                </div>
-                                <div class="form-check form-switch fs-20 ms-3 " onclick="check()">
-                                    <input class="form-check-input" type="checkbox" id="plan-switch">
-                                    <label class="form-check-label" for="plan-switch"></label>
-                                </div>
-                                <div>
-                                    <h5 class="fs-14 mb-0">Annual <span class="badge bg-success-subtle text-success">Save 20%</span></h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-
-                <div class="row gy-4">
-                    <div class="col-lg-4">
-                        <div class="card plan-box mb-0">
-                            <div class="card-body p-4 m-2">
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-grow-1">
-                                        <h5 class="mb-1 fw-semibold">Basic Plan</h5>
-                                        <p class="text-muted mb-0">For Startup</p>
-                                    </div>
-                                    <div class="avatar-sm">
-                                        <div class="avatar-title bg-light rounded-circle text-primary">
-                                            <i class="ri-book-mark-line fs-20"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="py-4 text-center">
-                                    <h1 class="month"><sup><small>$</small></sup><span class="ff-secondary fw-bold">19</span> <span class="fs-13 text-muted">/Month</span></h1>
-                                    <h1 class="annual"><sup><small>$</small></sup><span class="ff-secondary fw-bold">171</span> <span class="fs-13 text-muted">/Year</span></h1>
-                                </div>
-
-                                <div>
-                                    <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Upto <b>3</b> Projects
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Upto <b>299</b> Customers
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Scalable Bandwidth
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>5</b> FTP Login
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-danger me-1">
-                                                    <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>24/7</b> Support
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-danger me-1">
-                                                    <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>Unlimited</b> Storage
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-danger me-1">
-                                                    <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Domain
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="mt-4">
-                                        <a href="javascript:void(0);" class="btn btn-soft-success w-100">Get Started</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end col-->
-                    <div class="col-lg-4">
-                        <div class="card plan-box mb-0 ribbon-box right">
-                            <div class="card-body p-4 m-2">
-                                <div class="ribbon-two ribbon-two-danger"><span>Popular</span></div>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-grow-1">
-                                        <h5 class="mb-1 fw-semibold">Pro Business</h5>
-                                        <p class="text-muted mb-0">Professional plans</p>
-                                    </div>
-                                    <div class="avatar-sm">
-                                        <div class="avatar-title bg-light rounded-circle text-primary">
-                                            <i class="ri-medal-fill fs-20"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="py-4 text-center">
-                                    <h1 class="month"><sup><small>$</small></sup><span class="ff-secondary fw-bold">29</span> <span class="fs-13 text-muted">/Month</span></h1>
-                                    <h1 class="annual"><sup><small>$</small></sup><span class="ff-secondary fw-bold">261</span> <span class="fs-13 text-muted">/Year</span></h1>
-                                </div>
-
-                                <div>
-                                    <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Upto <b>15</b> Projects
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>Unlimited</b> Customers
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Scalable Bandwidth
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>12</b> FTP Login
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>24/7</b> Support
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-danger me-1">
-                                                    <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>Unlimited</b> Storage
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-danger me-1">
-                                                    <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Domain
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="mt-4">
-                                        <a href="javascript:void(0);" class="btn btn-soft-success w-100">Get Started</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end col-->
-                    <div class="col-lg-4">
-                        <div class="card plan-box mb-0">
-                            <div class="card-body p-4 m-2">
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-grow-1">
-                                        <h5 class="mb-1 fw-semibold">Platinum Plan</h5>
-                                        <p class="text-muted mb-0">Enterprise Businesses</p>
-                                    </div>
-                                    <div class="avatar-sm">
-                                        <div class="avatar-title bg-light rounded-circle text-primary">
-                                            <i class="ri-stack-fill fs-20"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="py-4 text-center">
-                                    <h1 class="month"><sup><small>$</small></sup><span class="ff-secondary fw-bold">39</span> <span class="fs-13 text-muted">/Month</span></h1>
-                                    <h1 class="annual"><sup><small>$</small></sup><span class="ff-secondary fw-bold">351</span> <span class="fs-13 text-muted">/Year</span></h1>
-                                </div>
-
-                                <div>
-                                    <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>Unlimited</b> Projects
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>Unlimited</b> Customers
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Scalable Bandwidth
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>Unlimited</b> FTP Login
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>24/7</b> Support
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <b>Unlimited</b> Storage
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 text-success me-1">
-                                                    <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    Domain
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="mt-4">
-                                        <a href="javascript:void(0);" class="btn btn-soft-success w-100">Get Started</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end col-->
-                </div>
-                <!--end row-->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end plan -->
-
-        <!-- start faqs -->
-        <section class="section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-semibold">Frequently Asked Questions</h3>
-                            <p class="text-muted mb-4 ff-secondary">If you can not find answer to your question in our FAQ, you can always contact us or email us. We will answer you shortly!</p>
-
-                            <div class="hstack gap-2 justify-content-center">
-                                <button type="button" class="btn btn-primary btn-label rounded-pill"><i class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email Us</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
-
-                <div class="row g-lg-5 g-4">
-                    <div class="col-lg-12">
-                        <div class="d-flex align-items-center mb-2">
-                            <div class="flex-shrink-0 me-1">
-                                <i class="ri-question-line fs-24 align-middle text-success me-1"></i>
-                            </div>
-                            <div class="flex-grow-1">
-                                <h5 class="mb-0 fw-semibold">General Questions</h5>
-                            </div>
-                        </div>
-                        <div class="accordion custom-accordionwithicon custom-accordion-border accordion-border-box" id="genques-accordion">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="genques-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseOne" aria-expanded="true" aria-controls="genques-collapseOne">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit?
-                                    </button>
-                                </h2>
-                                <div id="genques-collapseOne" class="accordion-collapse collapse show" aria-labelledby="genques-headingOne" data-bs-parent="#genques-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe esse hic delectus fugiat rerum aspernatur. Nemo velit recusandae odio quia vero similique, debitis repudiandae accusantium, ratione possimus soluta impedit.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="genques-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseTwo" aria-expanded="false" aria-controls="genques-collapseTwo">
-                                        Lorem ipsum dolor sit?
-                                    </button>
-                                </h2>
-                                <div id="genques-collapseTwo" class="accordion-collapse collapse" aria-labelledby="genques-headingTwo" data-bs-parent="#genques-accordion">
-                                    <div class="accordion-body ff-secondary">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor fugiat laborum unde id consectetur, eveniet aspernatur inventore totam at impedit eaque tempora nisi exercitationem tenetur veritatis facilis! Dolore, odio itaque!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end accordion-->
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end faqs -->
-
-        <!-- start plan -->
+        <!-- start api -->
         <section class="section bg-light">
             <div class="bg-overlay bg-overlay-pattern"></div>
             <div class="container">
@@ -879,7 +479,70 @@
                 <!--end row-->
                 <!-- end container -->
         </section>
-        <!-- end plan -->
+        <!-- end api -->
+
+        <!-- start faqs -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <h3 class="mb-3 fw-semibold">Frequently Asked Questions</h3>
+                            <p class="text-muted mb-4 ff-secondary">If you can not find answer to your question in our FAQ, you can always contact us or email us. We will answer you shortly!</p>
+
+                            <div class="hstack gap-2 justify-content-center">
+                                <button type="button" class="btn btn-primary btn-label rounded-pill"><i class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+
+                <div class="row g-lg-5 g-4">
+                    <div class="col-lg-12">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="flex-shrink-0 me-1">
+                                <i class="ri-question-line fs-24 align-middle text-success me-1"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-0 fw-semibold">General Questions</h5>
+                            </div>
+                        </div>
+                        <div class="accordion custom-accordionwithicon custom-accordion-border accordion-border-box" id="genques-accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="genques-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseOne" aria-expanded="true" aria-controls="genques-collapseOne">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit?
+                                    </button>
+                                </h2>
+                                <div id="genques-collapseOne" class="accordion-collapse collapse show" aria-labelledby="genques-headingOne" data-bs-parent="#genques-accordion">
+                                    <div class="accordion-body ff-secondary">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe esse hic delectus fugiat rerum aspernatur. Nemo velit recusandae odio quia vero similique, debitis repudiandae accusantium, ratione possimus soluta impedit.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="genques-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseTwo" aria-expanded="false" aria-controls="genques-collapseTwo">
+                                        Lorem ipsum dolor sit?
+                                    </button>
+                                </h2>
+                                <div id="genques-collapseTwo" class="accordion-collapse collapse" aria-labelledby="genques-headingTwo" data-bs-parent="#genques-accordion">
+                                    <div class="accordion-body ff-secondary">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor fugiat laborum unde id consectetur, eveniet aspernatur inventore totam at impedit eaque tempora nisi exercitationem tenetur veritatis facilis! Dolore, odio itaque!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end accordion-->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- end faqs -->
 
         <!-- start review -->
         <section class="section bg-primary" id="funfacts">
@@ -982,7 +645,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Nancy Martino</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">Team Leader</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1001,7 +664,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Henry Baird</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">Full Stack Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1020,7 +683,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Frank Hook</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">Project Manager</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1039,7 +702,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Donald Palmer</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">UI/UX Designer</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1061,7 +724,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Erica Kernan</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">Web Designer</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1080,7 +743,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Alexis Clarke</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">Backend Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1099,7 +762,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Marie Ward</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">Full Stack Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1119,7 +782,7 @@
                                 </div>
                                 <!-- end card body -->
                                 <h5 class="mb-1"><a href="pages-profile" class="text-body">Jack Gough</a></h5>
-                                <p class="text-muted mb-0 ff-secondary">React Js Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">Jabatan</p>
                             </div>
                         </div>
                         <!-- end card -->
@@ -1130,7 +793,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center mt-2">
-                            <a href="pages-team" class="btn btn-primary">View All Members <i class="ri-arrow-right-line ms-1 align-bottom"></i></a>
+                            <a href="pages-team" class="btn btn-primary">View All Teams <i class="ri-arrow-right-line ms-1 align-bottom"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1296,14 +959,14 @@
                                 </div>
                             </div>
                             <div class="col-sm-4 mt-4">
-                                <h5 class="text-white mb-0">Apps Pages</h5>
+                                <h5 class="text-white mb-0">Lorem ipsum</h5>
                                 <div class="text-muted mt-3">
                                     <ul class="list-unstyled ff-secondary footer-list">
-                                        <li><a href="pages-pricing">Calendar</a></li>
-                                        <li><a href="apps-mailbox">Mailbox</a></li>
-                                        <li><a href="apps-chat">Chat</a></li>
-                                        <li><a href="apps-crm-deals">Deals</a></li>
-                                        <li><a href="apps-tasks-kanban">Kanban Board</a></li>
+                                        <li><a href="javascript:void(0)">dolor sit</a></li>
+                                        <li><a href="javascript:void(0)">consectetur</a></li>
+                                        <li><a href="javascript:void(0)">adipisicing</a></li>
+                                        <li><a href="javascript:void(0)">obcaecati</a></li>
+                                        <li><a href="javascript:void(0)">consectetur</a></li>
                                     </ul>
                                 </div>
                             </div>
