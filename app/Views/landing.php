@@ -53,8 +53,8 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">
-                                <h5 class="fs-14 mb-0 text-muted">Light</h5>
+                            <a class="nav-link d-flex align-items-center" href="">
+                                <h5 class="fs-14 mb-0 text-muted me-2">Light</h5>
                                 <div class="form-check form-switch" onclick="toggleDarkMode()">
                                     <input class="form-check-input" type="checkbox" id="plan-switch">
                                     <label class="form-check-label" for="mode-switch"></label>
